@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #16202a;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15vw;
+  border-radius: 15px;
+  height: 100%;
+}
+
+nav .github {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  cursor: pointer;
+}
+
+nav .github p {
+  all: initial;
+  font-size: 25px;
+}
+
+nav .github:hover {
+  color: #00afff;
+}
+
+nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: #00afff;
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.news {
+  width: 75vw;
+  padding: 50px;
+  background-color: blanchedalmond;
+}
+/*# sourceMappingURL=style.css.map */

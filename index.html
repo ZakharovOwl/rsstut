@@ -11,24 +11,81 @@
       <div class="a"></div>
     </div> -->
 
-    
-   <!--  Экспорт новостей TUT.BY  -->
-<script type="text/javascript" src="https://news.tut.by/export/TUTBYExporter.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://news.tut.by/export/index_10.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://news.tut.by/export/world_10.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://news.tut.by/export/health_10.js" charset="utf-8"></script>
-<script type="text/javascript" src="https://news.tut.by/export/afisha_10.js" charset="utf-8"></script>
-<script type="text/javascript">
-TUTBY.SetTitleStyle("Times New Roman, Times, serif",15,"black");
-TUTBY.SetCategoryStyle(true,"Times New Roman, Times, serif",13,"bold","black");
-TUTBY.SetDateStyle(true,"dd-mm-yyyy","Verdana, Arial,Helvetica, sans-serif",10,"normal","silver");
-TUTBY.SetTargetBlank();
-TUTBY.ExportNews();
-</script>
-<!--  Экспорт новостей TUT.BY   -->
-
-
-
+    <div class="wrapper">
+      <nav>
+        <a class="github" href="https://github.com/ZakharovOwl">
+          <p>github.com</p>
+          <p>ZakharovOwl</p>
+        </a>
+        <ul>
+          <li>
+            <a class="list__link link_active">
+              My tweets
+            </a>
+          </li>
+          <li>
+            <a class="list__link link_active"> TUT.by </a>
+          </li>
+          <li>
+            <a class="list__link link_active"> Habr </a>
+          </li>
+          <li>
+            <a class="list__link link_active">
+              Finance
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="news">
+        <!--  Экспорт новостей TUT.BY  -->
+        <script
+          type="text/javascript"
+          src="https://news.tut.by/export/TUTBYExporter.js"
+          charset="utf-8"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://news.tut.by/export/index_10.js"
+          charset="utf-8"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://news.tut.by/export/world_10.js"
+          charset="utf-8"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://news.tut.by/export/health_10.js"
+          charset="utf-8"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://news.tut.by/export/afisha_10.js"
+          charset="utf-8"
+        ></script>
+        <script type="text/javascript">
+          TUTBY.SetTitleStyle("Times New Roman, Times, serif", 15, "black");
+          TUTBY.SetCategoryStyle(
+            true,
+            "Times New Roman, Times, serif",
+            13,
+            "bold",
+            "black"
+          );
+          TUTBY.SetDateStyle(
+            true,
+            "dd-mm-yyyy",
+            "Verdana, Arial,Helvetica, sans-serif",
+            10,
+            "normal",
+            "silver"
+          );
+          TUTBY.SetTargetBlank();
+          TUTBY.ExportNews();
+        </script>
+        <!--  Экспорт новостей TUT.BY   -->
+      </div>
+    </div>
 
     <script src="./main.js"></script>
   </body>
