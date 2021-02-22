@@ -1,64 +1,70 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
 
-.wrapper{
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    background-color: black;
+.wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
 }
 
 nav {
+  display: flex;
+  background-color: #16202a;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  border-radius: 15px;
+  height: 100%;
+
+  .github {
     display: flex;
-    background-color: #16202a;
     flex-direction: column;
     align-items: center;
-    width: 15vw;
-    border-radius: 15px;
-    height: 100%;
-  
-    .github {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 10vh;
-      margin-top: 10vh;
-      cursor: pointer;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    cursor: pointer;
 
-      p{
-          all:initial;
-          font-size: 25px;
-      }
-  
-      &:hover {
-        color: #00afff;
-      }
-    }
-  
-    a {
-      list-style-type: none;
-      text-decoration: none;
-      color: white;
+    p {
+      all: initial;
       font-size: 25px;
-      cursor: pointer;
-      &:hover{
-        color: #00afff;
-      }
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Lato", sans-serif;
     }
-    li {
-      list-style-type: none;
-      text-decoration: none;
-      margin: 10px;
+
+    &:hover {
+      color: #00afff;
     }
   }
-  .news{
-    width: 75vw;
-    padding: 50px;
-    background-color: blanchedalmond;
+
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    &:hover {
+      color: #00afff;
+    }
   }
+  li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+  }
+}
+.news {
+  width: 85vw;
+  padding: 50px;
+  background-color: #fdf2e2;
+}

@@ -55,6 +55,11 @@ nav .github {
 nav .github p {
   all: initial;
   font-size: 25px;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 nav .github:hover {
@@ -67,6 +72,9 @@ nav a {
   color: white;
   font-size: 25px;
   cursor: pointer;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 nav a:hover {
@@ -80,8 +88,8 @@ nav li {
 }
 
 .news {
-  width: 75vw;
+  width: 85vw;
   padding: 50px;
-  background-color: blanchedalmond;
+  background-color: #fdf2e2;
 }
 /*# sourceMappingURL=style.css.map */
